@@ -20,15 +20,7 @@ def days_in_month(year, month):
   else:
       return month_days[month - 1]
   
-
 year = int(input("Enter a year: "))
 month = int(input("Enter a month using a number (e.g: February = 2): "))
 days = days_in_month(year, month)
 print(days)
-
-
-
-
-
-
-
